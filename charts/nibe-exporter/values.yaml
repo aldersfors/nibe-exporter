@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/jalet/nibe-exporter
+  repository: ghcr.io/aldersfors/nibe-exporter
   pullPolicy: IfNotPresent
   tag: latest
 

@@ -93,7 +93,7 @@ docker run --rm \
   -e NIBE_DEVICE_ID \
   -e NIBE_LOG_LEVEL=info \
   -p 9090:9090 \
-  ghcr.io/jalet/nibe-exporter:latest
+  ghcr.io/aldersfors/nibe-exporter:latest
 ```
 
 3. Watch the logs. You should see output like:

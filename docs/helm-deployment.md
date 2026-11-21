@@ -98,7 +98,7 @@ The chart is published as an OCI artifact. Install directly using the OCI URL:
 
 ```bash
 # Install the chart
-helm install nibe-exporter oci://ghcr.io/jalet/nibe-exporter-rs/nibe-exporter \
+helm install nibe-exporter oci://ghcr.io/aldersfors/helm-charts/nibe-exporter \
   --namespace monitoring \
   --create-namespace \
   -f values-prod.yaml
@@ -254,7 +254,7 @@ If metrics are missing:
 Upgrade to a new chart version using the OCI URL:
 
 ```bash
-helm upgrade nibe-exporter oci://ghcr.io/jalet/nibe-exporter-rs/nibe-exporter \
+helm upgrade nibe-exporter oci://ghcr.io/aldersfors/helm-charts/nibe-exporter \
   -n monitoring \
   -f values-prod.yaml
 ```

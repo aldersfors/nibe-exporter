@@ -12,9 +12,9 @@ keywords:
   - exporter
   - myuplink
 
-home: https://github.com/jalet/nibe-exporter
+home: https://github.com/aldersfors/nibe-exporter
 sources:
-  - https://github.com/jalet/nibe-exporter
+  - https://github.com/aldersfors/nibe-exporter
 
 maintainers:
   - name: Joakim Jarsater
