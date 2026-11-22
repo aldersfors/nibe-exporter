@@ -264,7 +264,7 @@ See **[Helm Production Deployment](docs/helm-deployment.md)** for complete Helm 
 ```yaml
 services:
   nibe-exporter:
-    image: ghcr.io/jalet/nibe-exporter:latest
+    image: ghcr.io/aldersfors/nibe-exporter:latest
     environment:
       NIBE_CLIENT_ID: ${NIBE_CLIENT_ID}
       NIBE_CLIENT_SECRET: ${NIBE_CLIENT_SECRET}
